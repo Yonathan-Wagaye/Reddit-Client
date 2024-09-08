@@ -37,7 +37,7 @@ This Reddit App allows users to:
 
 You can view the wireframes for the app below:
 
-[Download Wireframes PDF](https://github.com/yourusername/your-repo-name/blob/main/assets/wireframes.pdf)
+[Wireframe Image](./documentation/Reddit Client Wire Frame.png)
 
 The wireframes represent the layout and flow of the application, demonstrating the homepage, post detail page, and responsive views.
 
