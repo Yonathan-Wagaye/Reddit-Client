@@ -1,0 +1,30 @@
+/* SplashScreen.module.css */
+.splashScreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1a1a1a; /* Dark background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.loading {
+    font-family: 'Reddit Sans' ,'Roboto', sans-serif;
+    font-size: 1.8rem;
+    color: white;
+    animation: fadeOut 2s forwards; /* Fade out animation */
+}
+
+/* Fade out animation */
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}

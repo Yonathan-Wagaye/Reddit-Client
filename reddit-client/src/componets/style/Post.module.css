@@ -1,0 +1,125 @@
+.postContainer {
+    background-color: #1a1a1b; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 16px 0;
+    border-color: whitesmoke;
+    padding: 16px;
+    max-width: 800px;
+    color: #d7dadc; 
+    margin-left: 30px;
+    border: 0.2px solid rgb(56, 51, 51);
+}
+
+.postHeader {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+    color: #d7dadc;
+    font-family: 'Reddit Sans' ,'Roboto', sans-serif;
+}
+
+.topHeader {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem; 
+    color: #818384; 
+    margin-bottom: 8px;
+}
+
+.subredditName {
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+.postTime {
+    margin-left: 5px;
+}
+
+.postTitle {
+    font-size: 1.2rem; 
+    font-weight: bold;
+    color: #d7dadc;
+    margin-bottom: 16px;
+    font-family: 'Reddit Sans' ,'Roboto', sans-serif;
+}
+
+.postThumbnailContainer {
+    width: 100%;
+    max-height: 500px;
+    overflow: hidden;
+    border-radius: 8px;
+    margin: 16px 0;
+}
+
+.postThumbnail {
+    width: 100%;
+    height: 500px; 
+    max-width: 100%;
+    object-fit: contain; 
+    border-radius: 8px;
+}
+
+.postFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 12px;
+    border-top: 1px solid ; 
+}
+
+.commentButton {
+    background: #171718;
+    box-shadow: 0 4px 8px rgba(57, 55, 55, 0.2);
+    border: 0.2px solid #343536;
+    border-radius: 10px;
+    padding: 12px;
+    width: 12%;
+    margin: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
+}
+
+.commentIcon img {
+    height: 15px;   
+}
+
+.voteButtons {
+    display: flex;
+    background: #171718; 
+    border-radius: 20px;
+    border: 0.2px solid #343536;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.voteButtons button {    
+    border: none;
+    background-color: #171718;
+    padding: 8px;
+    margin: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.voteButtons button img
+{
+    width: 25px;
+}
+.voteCount {
+    font-size: small;
+    font-family: 'Reddit Sans' ,'Roboto', sans-serif;;
+}
+.numberOfComments {
+    color: white;
+    font-size: small;
+    margin-bottom: 3px;
+}
+

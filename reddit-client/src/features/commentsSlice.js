@@ -9,6 +9,9 @@ export const fetchComments = createAsyncThunk('comments/fetchComments', async (p
     }
 
     const dataObj = await response.json();
+    
+    
+   
     return dataObj[1].data.children.map(comment => comment.data);
 });
 

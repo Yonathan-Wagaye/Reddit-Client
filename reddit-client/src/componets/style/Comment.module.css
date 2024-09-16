@@ -1,0 +1,41 @@
+/* src/components/style/Comment.module.css */
+.commentContainer {
+    border-left: 2px solid #ccc;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .commentContent {
+    margin-bottom: 8px;
+  }
+  
+  .commentAuthor {
+    font-weight: bold;
+    color: white;
+  }
+  
+  .commentBody {
+    margin: 5px 0;
+  }
+  
+  .commentMeta {
+    font-size: 12px;
+    color: #777;
+  }
+  
+  .replyToggle {
+    background: none;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+    font-size: 12px;
+    margin-left: 5px;
+  }
+  
+  .repliesContainer {
+    margin-left: 20px;
+    padding-left: 10px;
+    border-left: 1px solid #ccc;
+  }
+  
