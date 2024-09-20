@@ -1,0 +1,31 @@
+.subredditList {
+    display: flex;
+    flex-direction: column;
+    max-height: fit-content;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 16px 0;
+    border-color: whitesmoke;
+    border: 0.2px solid rgb(56, 51, 51);
+    gap: 5px;
+    padding: 10px;
+}
+
+.subredditList {
+    font-family: 'Reddit Sans' ,'Roboto', sans-serif;
+    font-size: larger;
+    color: white;
+    font-weight: bolder;
+    padding: 30px;
+}
+
+.subredditItem {
+    cursor: pointer;
+   
+}
+
+.subredditItem :hover {
+    background-color: rgba(255, 86, 0, 1);
+}
+
+

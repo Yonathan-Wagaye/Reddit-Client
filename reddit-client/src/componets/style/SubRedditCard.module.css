@@ -1,0 +1,24 @@
+.cardContainer  {
+    color: white;
+    background-color: #1a1a1b;
+    font-size: large;
+    font-family: 'Reddit Sans' ,'Roboto', sans-serif;
+    padding: 10px;
+    margin: 0 20px;
+}
+
+.active {
+    border-radius: 3px;
+    background-color: rgba(255, 86, 0, 1);
+    font-weight: bold;
+    padding: 10px;
+    color: white;
+    font-family: 'Reddit Sans' ,'Roboto', sans-serif;
+    font-size: medium;
+    margin: 0 20px;
+}
+
+.cardContainer :hover {
+    
+}
+

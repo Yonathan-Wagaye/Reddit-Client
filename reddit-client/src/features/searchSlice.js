@@ -13,15 +13,27 @@ const options = {
         },
         filterPosts: (state, action) => {
             const {posts, searchTerm} = action.payload;
-            state.filteredPosts = posts.filter(post => 
-                post.title.toLowerCase().includes(searchTerm.toLowerCase())
-            ); 
+            if(searchTerm === '')
+            {   
+                state.filteredPosts = posts;
+            }
+                
+            else
+            {
+                state.filteredPosts = posts.filter(post => 
+                    post.title.toLowerCase().includes(searchTerm.toLowerCase())
+                ); 
+            }
+            
         },
+        clearFilteredPosts: (state) => {
+            state.filteredPosts = [];
+        }
     },
 };
 
 const searchSlice = createSlice(options);
 
-export const {setSearchTerm, filterPosts} = searchSlice.actions;
+export const {setSearchTerm, filterPosts, clearFilteredPosts} = searchSlice.actions;
 
 export default searchSlice.reducer;

@@ -3,9 +3,7 @@ import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 
 
 // async thrunk to fetch posts
-// async thunk to fetch posts
-// async thunk to fetch posts
-export const fetchPosts = createAsyncThunk('posts/fetchPosts', async (subreddit = 'all') => {
+export const fetchPosts = createAsyncThunk('posts/fetchPosts', async (subreddit) => {
     const response = await fetch(`https://www.reddit.com/r/${subreddit}.json`);
 
     if (!response.ok) {
@@ -38,10 +36,10 @@ export const fetchPosts = createAsyncThunk('posts/fetchPosts', async (subreddit 
         const readableComment = (numComment) => {
             if (numComment >= 1000000) {
                 const readable = numComment / 1000000;
-                return `${readable.toFixed(1)}M`; // Round to one decimal place
+                return `${readable.toFixed(1)}M`; 
             } else if (numComment >= 1000) {
                 const readable = numComment / 1000;
-                return `${readable.toFixed(1)}K`; // Round to one decimal place
+                return `${readable.toFixed(1)}K`; 
             } else {
                 return `${numComment}`;
             }

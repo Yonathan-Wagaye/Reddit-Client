@@ -27,7 +27,7 @@
   .replyToggle {
     background: none;
     border: none;
-    color: #007bff;
+    color: rgba(255, 86, 0, 1);
     cursor: pointer;
     font-size: 12px;
     margin-left: 5px;

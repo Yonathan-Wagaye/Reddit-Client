@@ -20,7 +20,7 @@
 
 .title {
     color: whitesmoke;
-    font-family: 'Reddit Sans' ,'Roboto', sans-serif;;
+    font-family: 'Reddit Sans' ,'Roboto', sans-serif;
     font-weight: 500;
     font-size: larger;
     font-weight: bolder;
@@ -36,7 +36,7 @@
 
 .logo img {
     width: 100px;
-    height: 30px;
+    height: 25px;
 }
 
 /* Center the search bar */

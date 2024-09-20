@@ -1,0 +1,44 @@
+.mainContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    background-color: #1a1a1b;
+}
+
+.postContainer {
+    width: 80%;
+}
+
+.subRedditContainer {
+    margin-right: 10px;
+    width: 40%;
+}
+
+.noResults {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.noResults p {
+    font-size: 18px;
+    color: white;
+    font-family: 'Reddit Sans' ,'Roboto', sans-serif; 
+}
+
+.resetButton {
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: rgba(255, 86, 0, 1);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Reddit Sans' ,'Roboto', sans-serif; 
+}
+
+.resetButton:hover {
+    background-color: white;
+    color: rgba(255, 86, 0, 1);
+}
+

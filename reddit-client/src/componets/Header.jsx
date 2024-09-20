@@ -1,7 +1,7 @@
 import React from "react";
 import styles from './style/Header.module.css';
 import SearchBar from "./SearchBar";
-const Header = () => {
+const Header = ({posts}) => {
     return (
         <header className={styles.header}>
             <div className={styles.headerContent}>
@@ -13,7 +13,7 @@ const Header = () => {
                 </div>
                 
                 <div className={styles.searchBar}>
-                    <SearchBar />
+                    <SearchBar posts={posts}/>
                 </div>
 
                 
